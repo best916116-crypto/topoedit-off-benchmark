@@ -1,0 +1,10 @@
+panel	metric	value	description
+A	selected_panel_guides	100	100-guide benchmark panel
+A	topo_guides	6	TOPO-family guides
+A	be_guides	14	BE-family guides in designed panel
+A	conventional_guides	80	CRISPRoffT/conventional guides
+B	generated_candidate_rows	1961227	m6 candidate universe
+B	generated_guides	100	guides observed after Cas-OFFinder
+C	source_aware_labeled_rows	157029	source-aware labeled generated candidates
+C	known_positive_rows	25457	source-aware observed-positive rows
+C	mismatch6_candidate_rows	1637800	candidate rows at mismatch=6

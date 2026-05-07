@@ -1,0 +1,4 @@
+primary_family	guides	candidate_rows	median_candidates_per_guide	mean_candidates_per_guide	mm_ge5_rows	mm_ge6_rows	mm0_rows	median_unique_chroms
+BE_CHANGEseq_positive	13	149086	8566.0	11468.153846153846	146201	129495	14	179.0
+CRISPRoffT_conventional	81	1733488	16520.0	21401.086419753086	1690318	1439513	257	215.0
+TOPO_high_mismatch_positive	6	78653	11602.0	13108.833333333334	77452	68792	7	187.0

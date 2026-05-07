@@ -1,0 +1,8 @@
+risk	severity	mitigation
+No wet validation	HIGH	Target computational/resource journals; keep Cell/GR as stretch only
+Predictor performance weak	HIGH	Do not frame as SOTA predictor
+TOPO guides limited	MEDIUM_HIGH	Report guide-aware metrics and limits
+BE head failed	MEDIUM_HIGH	Exclude from positive claims; mention editor-specific features needed
+ATMP fallback caveat	MEDIUM	Keep ATMP context-only
+Figure quality not publication-grade	HIGH	internal pipeline stage should generate figure-source tables, then redraw clean figures
+External reproducibility not locked	HIGH	internal pipeline stage release freeze with hashes and demo

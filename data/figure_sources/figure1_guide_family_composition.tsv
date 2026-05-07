@@ -1,0 +1,4 @@
+guide_family	guides	fraction_of_panel	role
+CRISPRoffT_conventional	81	0.81	conventional_reference_space
+BE_CHANGEseq_positive	13	0.13	base_editor_positive_space
+TOPO_high_mismatch_positive	6	0.06	topology_high_mismatch_space

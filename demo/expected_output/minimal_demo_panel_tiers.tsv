@@ -1,0 +1,4 @@
+panel_tier	rows	guides	topo_positive	be_positive	conventional_positive	conventional_negative	any_positive	any_assay_labeled	unlabeled_rows	mismatch_ge5	mismatch_le4	low_mappability	blacklist_overlap	repeat_overlap_high	atmp_high_100kb	atmp_low_100kb
+core96	96	52	20	16	10	10	46	57	39	76	20	0	0	8	34	8
+expanded192	192	65	40	32	20	20	92	113	79	152	40	1	0	16	59	17
+backup384	384	80	86	66	32	40	184	225	159	316	68	1	1	31	94	31

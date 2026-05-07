@@ -1,0 +1,10 @@
+metric	value
+generated_candidate_rows	1961227
+generated_guides	100
+labeled_generated_rows	157029
+known_positive_generated_rows	25457
+topo_positive_generated_rows	21612
+be_positive_generated_rows	3742
+crisprofft_positive_generated_rows	103
+crisprofft_negative_generated_rows	499
+conventional_low_warning	True

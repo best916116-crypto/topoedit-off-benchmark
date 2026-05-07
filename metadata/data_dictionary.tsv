@@ -1,0 +1,56 @@
+repo_path	category	description
+data/benchmark/baseline_guide_weighted_summary.tsv	benchmark	baseline guide weighted summary
+data/benchmark/baseline_topk_recovery.tsv	benchmark	baseline topk recovery
+data/benchmark/candidate_burden_by_family.tsv	benchmark	candidate burden by family
+data/benchmark/candidate_count_by_guide.tsv	benchmark	candidate count by guide
+data/benchmark/chromosome_candidate_summary.tsv	benchmark	chromosome candidate summary
+data/benchmark/guide_panel_composition.tsv	benchmark	guide panel composition
+data/benchmark/label_inventory.tsv	benchmark	label inventory
+data/benchmark/label_subset_mismatch_summary.tsv	benchmark	label subset mismatch summary
+data/benchmark/mismatch_bucket_coverage.tsv	benchmark	mismatch bucket coverage
+data/benchmark/random_tie_baseline.tsv	benchmark	random tie baseline
+data/benchmark/source_aware_label_inventory.tsv	benchmark	source aware label inventory
+data/benchmark/source_family_offsets.tsv	benchmark	source family offsets
+data/figure_sources/figure1_benchmark_universe.tsv	figure_sources	figure1 benchmark universe
+data/figure_sources/figure1_candidate_burden_by_family.tsv	figure_sources	figure1 candidate burden by family
+data/figure_sources/figure1_guide_family_composition.tsv	figure_sources	figure1 guide family composition
+data/figure_sources/figure2_label_inventory.tsv	figure_sources	figure2 label inventory
+data/figure_sources/figure2_source_aware_label_join.tsv	figure_sources	figure2 source aware label join
+data/figure_sources/figure2_source_family_offsets.tsv	figure_sources	figure2 source family offsets
+data/figure_sources/figure3_mismatch_recall_pivot.tsv	figure_sources	figure3 mismatch recall pivot
+data/figure_sources/figure3_mismatch_regime_divergence.tsv	figure_sources	figure3 mismatch regime divergence
+data/figure_sources/figure4_label_inventory_high_mismatch.tsv	figure_sources	figure4 label inventory high mismatch
+data/figure_sources/figure4_random_tie_baseline.tsv	figure_sources	figure4 random tie baseline
+data/figure_sources/figure4_sequence_baseline_topk.tsv	figure_sources	figure4 sequence baseline topk
+data/figure_sources/figure5_claim_policy.tsv	figure_sources	figure5 claim policy
+data/figure_sources/figure5_component_role_gates.tsv	figure_sources	figure5 component role gates
+data/figure_sources/figure6_panel_guide_balance.tsv	figure_sources	figure6 panel guide balance
+data/figure_sources/figure6_panel_purity.tsv	figure_sources	figure6 panel purity
+data/figure_sources/figure6_panel_selection_buckets.tsv	figure_sources	figure6 panel selection buckets
+data/figure_sources/figure6_panel_tiers.tsv	figure_sources	figure6 panel tiers
+data/hard_split/ai_feature_manifest.tsv	hard_split	ai feature manifest
+data/hard_split/ai_modeling_recommendation.tsv	hard_split	ai modeling recommendation
+data/hard_split/fold_label_balance.tsv	hard_split	fold label balance
+data/hard_split/fold_semantic_balance.tsv	hard_split	fold semantic balance
+data/hard_split/guide_family_fold_balance.tsv	hard_split	guide family fold balance
+data/hard_split/guide_fold_assignments.tsv	hard_split	guide fold assignments
+data/role_gates/ai_head_roles.tsv	role_gates	ai head roles
+data/role_gates/ai_policy.tsv	role_gates	ai policy
+data/role_gates/atmp_policy.tsv	role_gates	atmp policy
+data/role_gates/final_component_roles.tsv	role_gates	final component roles
+data/role_gates/journal_strategy.tsv	role_gates	journal strategy
+data/role_gates/manuscript_claims.tsv	role_gates	manuscript claims
+data/role_gates/multi_atlas_policy.tsv	role_gates	multi atlas policy
+data/role_gates/multi_atlas_rank_roles.tsv	role_gates	multi atlas rank roles
+data/role_gates/quantitative_anchors.tsv	role_gates	quantitative anchors
+data/role_gates/risk_register.tsv	role_gates	risk register
+data/role_gates/topo_pu_policy.tsv	role_gates	topo pu policy
+data/validation_panels/amplicon_window_inputs_not_primers.tsv	validation_panels	amplicon window inputs not primers
+data/validation_panels/panel_guide_balance_summary.tsv	validation_panels	panel guide balance summary
+data/validation_panels/panel_purity_audit.tsv	validation_panels	panel purity audit
+data/validation_panels/panel_selection_bucket_summary.tsv	validation_panels	panel selection bucket summary
+data/validation_panels/panel_tier_summary.tsv	validation_panels	panel tier summary
+data/validation_panels/validation_panel_backup384.tsv	validation_panels	validation panel backup384
+data/validation_panels/validation_panel_core96.tsv	validation_panels	validation panel core96
+data/validation_panels/validation_panel_expanded192.tsv	validation_panels	validation panel expanded192
+data/validation_panels/validation_panel_master.tsv	validation_panels	validation panel master

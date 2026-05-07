@@ -1,0 +1,8 @@
+subset	rows	guides	mm0_rows	mm_le4_rows	mm_ge5_rows	mm_ge6_rows	median_mismatch
+all_generated	1961227	100	278	47256	1913971	1637800	6.0
+any_assay_labeled	157029	84	66	14935	142094	97836	6.0
+known_positive_like	25457	33	29	1271	24186	18999	6.0
+topo_positive	21612	6	6	833	20779	16478	6.0
+be_positive	3742	11	10	360	3382	2509	6.0
+conventional_positive	103	16	13	78	25	12	4.0
+conventional_negative	499	19	1	212	287	145	5.0

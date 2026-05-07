@@ -1,0 +1,4 @@
+policy_item	decision	evidence
+atmp_role	KEEP_ATMP_AS_CONTEXT_ANNOTATION_ONLY	max_delta_recall_vs_low=0.0008017103153394002; max_delta_recall_vs_high_random=0.023792980580794598; max_high_enrichment_focus=1.0929983965793688; atmp100_top100_all_positive=2
+probability_claim	DO_NOT_CLAIM_ATMP_PROBABILITY	ATMP-only rank is weak and current ATMP uses fallback-gDNA normalization.
+manuscript_use	USE_AS_CONTEXT_STRATIFICATION	BE and CRISPRoffT subsets show directional ATMP shifts, but TOPO does not and CRISPRoffT positive n is small.

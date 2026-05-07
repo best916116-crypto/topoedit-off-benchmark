@@ -1,0 +1,14 @@
+feature_column	role	missing_fraction
+mismatch_count	sequence_baseline	0.0
+feat_mappability_mean	qc_context	0.052251473184899
+feat_blacklist_max	qc_context	0.0
+feat_repeatmasker_max	qc_context	0.0
+feat_n_fraction_max	qc_context	0.0
+feat_gc_deviation_max	qc_context	0.052251473184899
+feat_accessibility_gm12878_mean_z	qc_context	0.0
+feat_promoter_max	qc_context	0.0
+feat_gene_body_max	qc_context	0.0
+score_qc_clean	qc_context	0.0
+score_accessibility_context	context_score	0.0
+score_annotation_context	context_score	0.0
+score_atlas_light_context	context_score	0.0

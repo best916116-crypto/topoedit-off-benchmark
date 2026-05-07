@@ -1,0 +1,12 @@
+component	final_role	manuscript_use	evidence_summary
+source_aware_benchmark	MAIN_RESULT	Use as primary manuscript foundation	1.96M candidates, 100 guides, source-aware labels
+mismatch_regime_divergence	MAIN_RESULT	Figure 2/3 core result	TOPO/BE high-mismatch dominated; CRISPRoffT lower-mismatch enriched
+high_mismatch_expansion	MAIN_RESULT_WITH_LIMITATION	Expansion needed but not sufficient for ranking	m6 tie-space is large
+strict_validation_panel	MAIN_RESOURCE	Core96/expanded192/backup384 release artifact	Label purity locked at zero violation
+ATMP	CONTEXT_ONLY	Use as context/stratification only	No probability claim
+multi_atlas_light	WEAK_TIEBREAKER_CONTEXT	Supplement/context; not default score	Weak low-mismatch tiebreaker only
+AI_all_pu	EXPERIMENTAL_EXPANDED_PANEL_RANK_ONLY	Optional supplement; not product rank	Mid-K/expanded enrichment only
+AI_topo_pu	NOT_PROMOTED_REVIEW_OR_RETRAIN	Do not use as final predictor	Fold-balanced signal did not pass global robustness
+AI_be_pu	REJECT_RETRAIN_REQUIRED	Do not claim BE head	Requires editor-specific features
+conventional_supervised	SANITY_ONLY	Supplement sanity axis	Conventional positive n is small
+product_CLI_report	SUPPLEMENTARY_DEMO_RESOURCE	Show as reproducible prototype, not main biological claim	Product RC exists but not final predictor

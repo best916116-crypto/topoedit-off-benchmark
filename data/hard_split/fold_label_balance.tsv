@@ -1,0 +1,6 @@
+guide_fold	candidate_rows	guides	labeled_rows	positive_rows	topo_positive_rows	be_positive_rows	conventional_positive_rows	conventional_negative_rows	core96_rows	expanded192_rows	backup384_rows
+0	346935	19	20927	7433	7110	315	8	85	19	36	68
+1	322496	19	21626	7372	6862	506	4	100	13	29	63
+2	556410	23	68512	3111	2365	699	47	113	24	46	88
+3	319730	19	20751	3973	2358	1610	5	102	20	36	72
+4	415656	20	25213	3568	2917	612	39	99	20	45	93

@@ -1,0 +1,6 @@
+item	recommendation	rationale
+model_family	PU_or_learning_to_rank_first	Unlabeled candidates are not true negatives; train rankers rather than calibrated binary probability models.
+first_model	LightGBM_or_XGBoost_LambdaRank_if_available_else_HGB_rank_surrogate	Tabular feature space and guide-grouped hard splits favor tree-based rankers over deep models at this stage.
+heads	assay_aware_heads_TOPO_BE_CRISPRoffT	internal pipeline stage/62A.2 show different label regimes and source offsets.
+evaluation	guide_fold_heldout_plus_guide_weighted_recovery	TOPO has only six positive guides; row-weighted aggregate metrics can be misleading.
+promotion_policy	experimental_rank_only_until_external_validation	internal pipeline stage shows multi-atlas is only a weak low-mismatch tiebreaker.

@@ -1,0 +1,12 @@
+support_level	claim	manuscript_policy
+SUPPORTED	Source-aware label harmonization is required for cross-assay off-target candidate benchmarking.	Use prominently
+SUPPORTED	TOPO and BE observed-positive spaces are high-mismatch dominated relative to conventional CRISPRoffT positives.	Main biological/genomic insight
+SUPPORTED	Low-mismatch sequence-centric prioritization under-recovers TOPO/BE observed positives.	Main result
+SUPPORTED	Expanding candidate generation to mismatch 6 restores coverage but creates a large unranked tie-space.	Main result
+SUPPORTED	A strict validation panel can be constructed with balanced positive/control/unlabeled/QC/context strata.	Main resource output
+CONDITIONAL	AI all-PU provides modest expanded-panel enrichment.	Supplement only; no top100/default claim
+CONDITIONAL	TOPO-PU may be useful as a fold-balanced sampler.	Do not claim without retrain/wet validation
+NOT_SUPPORTED	TopoEdit-Off is a calibrated off-target probability predictor.	Forbidden
+NOT_SUPPORTED	ATMP predicts off-target probability.	Forbidden
+NOT_SUPPORTED	Multi-atlas or AI rank replaces the default/sequence baseline.	Forbidden
+NOT_SUPPORTED	BE-specific AI head is successful.	Forbidden until BE-specific features/retrain

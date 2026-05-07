@@ -1,0 +1,25 @@
+component	role_or_decision	manuscript_use	evidence_summary	source_step
+source_aware_benchmark	MAIN_RESULT	Use as primary manuscript foundation	1.96M candidates, 100 guides, source-aware labels	internal pipeline stage
+mismatch_regime_divergence	MAIN_RESULT	Figure 2/3 core result	TOPO/BE high-mismatch dominated; CRISPRoffT lower-mismatch enriched	internal pipeline stage
+high_mismatch_expansion	MAIN_RESULT_WITH_LIMITATION	Expansion needed but not sufficient for ranking	m6 tie-space is large	internal pipeline stage
+strict_validation_panel	MAIN_RESOURCE	Core96/expanded192/backup384 release artifact	Label purity locked at zero violation	internal pipeline stage
+ATMP	CONTEXT_ONLY	Use as context/stratification only	No probability claim	internal pipeline stage
+multi_atlas_light	WEAK_TIEBREAKER_CONTEXT	Supplement/context; not default score	Weak low-mismatch tiebreaker only	internal pipeline stage
+AI_all_pu	EXPERIMENTAL_EXPANDED_PANEL_RANK_ONLY	Optional supplement; not product rank	Mid-K/expanded enrichment only	internal pipeline stage
+AI_topo_pu	NOT_PROMOTED_REVIEW_OR_RETRAIN	Do not use as final predictor	Fold-balanced signal did not pass global robustness	internal pipeline stage
+AI_be_pu	REJECT_RETRAIN_REQUIRED	Do not claim BE head	Requires editor-specific features	internal pipeline stage
+conventional_supervised	SANITY_ONLY	Supplement sanity axis	Conventional positive n is small	internal pipeline stage
+product_CLI_report	SUPPLEMENTARY_DEMO_RESOURCE	Show as reproducible prototype, not main biological claim	Product RC exists but not final predictor	internal pipeline stage
+ATMP_atmp_role	KEEP_ATMP_AS_CONTEXT_ANNOTATION_ONLY	context-only policy	max_delta_recall_vs_low=0.0008017103153394002; max_delta_recall_vs_high_random=0.023792980580794598; max_high_enrichment_focus=1.0929983965793688; atmp100_top100_all_positive=2	internal pipeline stage
+ATMP_probability_claim	DO_NOT_CLAIM_ATMP_PROBABILITY	context-only policy	ATMP-only rank is weak and current ATMP uses fallback-gDNA normalization.	internal pipeline stage
+ATMP_manuscript_use	USE_AS_CONTEXT_STRATIFICATION	context-only policy	BE and CRISPRoffT subsets show directional ATMP shifts, but TOPO does not and CRISPRoffT positive n is small.	internal pipeline stage
+multi_atlas_multi_atlas_score_role	USE_MULTI_ATLAS_AS_WEAK_LOW_MISMATCH_TIEBREAKER_ONLY	role gate	internal pipeline stage does not show broad robust recovery improvement sufficient for default-score promotion.	internal pipeline stage
+multi_atlas_default_score_policy	DO_NOT_REPLACE_DEFAULT_SCORE	role gate	Multi-atlas-light ranks are heuristic/context ranks, not calibrated probability or validated default replacement.	internal pipeline stage
+multi_atlas_atlas_context_use	USE_FOR_QC_FLAGS_CONTEXT_AND_EXPLANATION	role gate	20 feature lookup succeeded across mappability/QC/accessibility/annotation axes.	internal pipeline stage
+multi_atlas_atmp_policy_consistency	ATMP_REMAINS_CONTEXT_ONLY	role gate	[{'policy_item': 'atmp_role', 'decision': 'KEEP_ATMP_AS_CONTEXT_ANNOTATION_ONLY', 'evidence': 'max_delta_recall_vs_low=0.0008017103153394002; max_delta_recall_vs_high_random=0.023792980580794598; max_high_enrichment_focus=1.0929983965793688; atmp100_top100_all_positive=2'}, {'policy_item': 'probability_claim', 'decision': 'DO_NOT_CLAIM_ATMP_PROBABILITY', 'evidence': 'ATMP-only rank is weak and current ATMP uses fallback-gDNA normalization.'}, {'policy_item': 'manuscript_use', 'decision': 'USE_AS_CONTEXT_STRATIFICATION', 'evidence': 'BE and CRISPRoffT subsets show directional ATMP shifts, but TOPO does not and CRISPRoffT positive n is small.'}]	internal pipeline stage
+multi_atlas_metric_language	REPORT_OBSERVED_POSITIVE_RECOVERY_NOT_PRECISION	role gate	Unlabeled candidates are not true negatives.	internal pipeline stage
+AI_all_pu	EXPERIMENTAL_EXPANDED_PANEL_RANK_ONLY_PAIRED_CONFIRMED	AI role gate	Signal is mid-K/expanded rather than top100. d100=-4, d1000=7, d5000=-8, d10000=-11, best1000=rank_hgb_all_pu_oof (raw).	internal pipeline stage
+AI_topo_pu	WEAK_TOPO_EXPERIMENTAL_HEAD_PAIRED	AI role gate	Limited paired TOPO signal. d100=87, d1000=718, d5000=746.	internal pipeline stage
+AI_be_pu	REJECT_BE_SPECIFIC_HEAD_RETRAIN_REQUIRED	AI role gate	BE head hurts top100 against sequence-low baseline. d100=-4, d1000=23, d5000=160.	internal pipeline stage
+AI_conventional_supervised	LIMITED_CONVENTIONAL_SANITY_HEAD_ONLY	AI role gate	Conventional positive label count is small; retain only as sanity axis.	internal pipeline stage
+AI_topo_pu_stress	TOPO_PU_SIGNAL_REQUIRES_RETRAIN_OR_REVIEW	stress-test caveat	sampler_supported=False	internal pipeline stage

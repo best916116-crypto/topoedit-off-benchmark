@@ -1,0 +1,6 @@
+policy_item	decision	evidence
+overall_ai_role	KEEP_AI_ALL_PU_AS_EXPERIMENTAL_EXPANDED_PANEL_RANK_ONLY	Same-variant comparison avoids foldrr-vs-global baseline artifact.
+topo_ai_head	WEAK_TOPO_EXPERIMENTAL_HEAD_PAIRED	TOPO head must survive paired raw/foldnorm/foldrr comparison.
+be_ai_head	REJECT_BE_SPECIFIC_HEAD_RETRAIN_REQUIRED	BE head must improve target BE positives in paired comparison.
+probability_claim	DO_NOT_CLAIM_AI_PROBABILITY	PU/HGB scores are rank-surrogate OOF scores.
+metric_language	OBSERVED_POSITIVE_RECOVERY_ONLY	Unlabeled candidates are not true negatives.

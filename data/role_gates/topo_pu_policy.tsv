@@ -1,0 +1,5 @@
+policy_item	decision	evidence
+topo_pu_role	TOPO_PU_SIGNAL_REQUIRES_RETRAIN_OR_REVIEW	foldrr_delta100=87.0; foldrr_delta1000=718.0; topo_pos_rows_100=93; topo_pos_guides_100=5; topo_max_guide_frac_100=0.21505376344086022; local20_folds_with_topo=1
+global_predictor_claim	DO_NOT_CLAIM_GLOBAL_TOPO_PREDICTOR	Best signal is expected in fold-balanced/foldrr sampler semantics, not raw global rank.
+probability_claim	DO_NOT_CLAIM_PROBABILITY	PU/HGB scores are rank-surrogate OOF scores; unlabeled candidates are not true negatives.
+sampler_use	USE_ONLY_FOR_VALIDATION_PANEL_EXPANSION	Sampler table is generated as fold-balanced stress-test candidates, not product default rank.

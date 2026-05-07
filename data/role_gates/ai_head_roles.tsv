@@ -1,0 +1,5 @@
+head	target_label	paired_assigned_role	reason	best_same_variant_rank	best_variant	best_k	best_delta_observed_label_rows_vs_sequence_low	best_delta_recall_vs_sequence_low
+all_pu	all_positive	EXPERIMENTAL_EXPANDED_PANEL_RANK_ONLY_PAIRED_CONFIRMED	Signal is mid-K/expanded rather than top100. d100=-4, d1000=7, d5000=-8, d10000=-11, best1000=rank_hgb_all_pu_oof (raw).	rank_hgb_all_pu_oof	raw	1000	7	0.0002749734846996
+topo_pu	TOPO_positive	WEAK_TOPO_EXPERIMENTAL_HEAD_PAIRED	Limited paired TOPO signal. d100=87, d1000=718, d5000=746.	rank_hgb_topo_pu_oof_foldrr	foldrr	5000	746	0.0345178604478993
+be_pu	BE_positive	REJECT_BE_SPECIFIC_HEAD_RETRAIN_REQUIRED	BE head hurts top100 against sequence-low baseline. d100=-4, d1000=23, d5000=160.	rank_hgb_be_pu_oof_foldrr	foldrr	10000	188	0.0502405130946018
+conventional_supervised	CRISPRoffT_positive	LIMITED_CONVENTIONAL_SANITY_HEAD_ONLY	Conventional positive label count is small; retain only as sanity axis.	rank_hgb_conventional_supervised_oof_foldrr	foldrr	1000	-5	-0.0485436893203883

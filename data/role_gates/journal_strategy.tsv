@@ -1,0 +1,7 @@
+journal	priority	fit_rationale	required_positioning
+NAR Genomics and Bioinformatics	PRIMARY_TARGET	Best fit for large-scale genomics/bioinformatics analysis + resource/method package	Needs GitHub, Zenodo, documentation, release bundle
+Bioinformatics	PRIMARY_OR_SECOND_TARGET	Good fit if packaged as software/benchmark resource with stable code, docs, test data	Avoid overclaiming biological mechanism
+Genome Research	STRETCH_TARGET	Possible only if mismatch-regime divergence is framed as novel genome-biology/computational insight	No wet validation makes this harder
+PLOS Computational Biology	BACKUP_STRONG	Good fit for rigorous computational benchmark/framework	Needs clear question and reproducibility
+GigaScience	BACKUP_RESOURCE	Good if release/data/workflow package is strong	Focus on resource reuse
+Scientific Data	BACKUP_DATA_DESCRIPTOR	Possible if paper becomes dataset/resource descriptor	Less method/biology emphasis

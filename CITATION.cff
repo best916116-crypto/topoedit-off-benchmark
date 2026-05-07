@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "TopoEdit-Off: a source-aware benchmark and validation-priority framework for high-mismatch genome-editing off-target candidates"
+message: "If you use this resource, please cite the manuscript and Zenodo release."
+type: software
+authors:
+  - name: "Park, Jaejun"
+    affiliation: "Department of Brain and Cognitive Sciences, KAIST"
+    orcid: "https://orcid.org/0009-0001-3466-2614"
+repository-code: "https://github.com/best916116-crypto/topoedit-off-benchmark"
+version: "v0.67E"
+date-released: "TBD"
+license: "MIT"
+keywords:
+  - CRISPR
+  - off-target
+  - genome editing
+  - benchmark
+  - validation-priority
+  - source-aware labels
+  - high mismatch

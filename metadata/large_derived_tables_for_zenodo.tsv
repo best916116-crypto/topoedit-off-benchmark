@@ -1,0 +1,6 @@
+dataset_name	description	suggested_public_filename	recommended_deposition
+source_aware_candidate_label_table	Generated candidates with source-aware labels	source_aware_candidate_label_table.tsv.gz	Zenodo Dataset, not GitHub
+m6_candidate_universe	Full 100-guide mismatch<=6 candidate universe	m6_candidate_universe.tsv.gz	Zenodo Dataset, not GitHub
+multi_atlas_scored_candidates	Candidate table with multi-atlas light features and scores	multi_atlas_scored_candidates.tsv.gz	Zenodo Dataset, not GitHub
+ai_ready_candidate_table	Slim AI-ready candidate table	ai_ready_candidate_table.tsv.gz	Zenodo Dataset, not GitHub
+hgb_pu_oof_predictions	Out-of-fold PU/HGB prediction table	hgb_pu_oof_predictions.tsv.gz	Zenodo Dataset, not GitHub

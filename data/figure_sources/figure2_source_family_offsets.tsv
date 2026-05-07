@@ -1,0 +1,4 @@
+family_key	matched_generated_rows	matched_positive_generated_rows	matched_negative_generated_rows	matched_assay_rows	guides	offset
+BE	5699	3742	0	9061	35	0
+CRISPRoffT	129789	274	498	132786	65	1
+TOPO	21612	21612	0	45976	6	0
