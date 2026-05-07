@@ -2,14 +2,6 @@
 
 **TopoEdit-Off** is a source-aware benchmark and validation-priority framework for high-mismatch genome-editing off-target candidates.
 
-## Recommended manuscript title
-
-> TopoEdit-Off: a source-aware benchmark and validation-priority framework for high-mismatch genome-editing off-target candidates
-
-Alternative biology-first title:
-
-> Source-aware mapping of high-mismatch genome-editing off-target candidate spaces reveals assay-specific blind spots in sequence-centric prioritization
-
 ## Repository scope
 
 This repository contains the public GitHub release package for `topoedit-off-benchmark`.
@@ -35,15 +27,6 @@ cd demo
 python run_minimal_demo.py
 cat output/minimal_demo_summary.md
 ```
-
-## What this resource does not claim
-
-This release does **not** claim:
-
-- calibrated off-target probability;
-- ATMP-driven off-target probability;
-- default-rank replacement by multi-atlas or AI scores;
-- a successful BE-specific AI head.
 
 ## Data policy
 
