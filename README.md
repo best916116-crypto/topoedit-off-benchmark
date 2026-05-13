@@ -1,5 +1,7 @@
 # TopoEdit-Off
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20154047.svg)](https://doi.org/10.5281/zenodo.20154047)
+
 **TopoEdit-Off** is a source-aware benchmark resource for high-mismatch genome-editing off-target prioritization.
 
 This repository contains the public software/resource release accompanying the manuscript:
@@ -105,7 +107,7 @@ Large derived tables should be archived separately as Zenodo Dataset records whe
 
 ## Citation
 
-Until the manuscript DOI and Zenodo DOI are finalized, cite this GitHub release and `CITATION.cff`.
+Cite the archived Zenodo release: DOI `10.5281/zenodo.20154047`. See `CITATION.cff` for citation metadata.
 
 ## License
 
@@ -113,4 +115,4 @@ MIT.
 
 ## Version
 
-v1.1.0
+v1.1.1

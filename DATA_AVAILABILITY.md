@@ -7,3 +7,5 @@ Large candidate-level derived tables are not stored in this GitHub repository an
 Repository:
 
 https://github.com/best916116-crypto/topoedit-off-benchmark
+
+Zenodo software release DOI: `10.5281/zenodo.20154047`.
