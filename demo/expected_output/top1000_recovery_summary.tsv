@@ -1,0 +1,10 @@
+label_key	display_label	canonical_label	method_key	method_label	rank_col	k	bootstrap_replicates	mean_recovery	median_recovery	sd_recovery	ci95_low	ci95_high
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	1000	1000	0.84048	0.84	0.0078250131521187	0.83	0.86
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	1000	1000	0.856	0.85	0.0068736633062179	0.85	0.87
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	1000	1000	0.75654	0.76	0.0072857039111867	0.75	0.77
+base_editor_positive	Base-editor positives	BE_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	1000	1000	0.30333	0.3	0.0424218188048404	0.22	0.39
+base_editor_positive	Base-editor positives	BE_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	1000	1000	0.30032	0.3	0.0419816633789094	0.22	0.38
+base_editor_positive	Base-editor positives	BE_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	1000	1000	0.31926	0.32	0.0421690719678609	0.24	0.4
+topo_seq_positive	TOPO-seq positives	TOPO_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	1000	1000	0.20432	0.2	0.0391825582737124	0.13	0.28
+topo_seq_positive	TOPO-seq positives	TOPO_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	1000	1000	0.2003	0.2	0.0391413086398761	0.13	0.28
+topo_seq_positive	TOPO-seq positives	TOPO_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	1000	1000	0.23217	0.23	0.0406280905500337	0.15975	0.32

@@ -1,0 +1,32 @@
+path	category	description
+.gitattributes	.gitattributes	.gitattributes
+.github/workflows/demo.yml	.github	demo
+.gitignore	.gitignore	.gitignore
+.zenodo.json	.zenodo.json	.zenodo
+CITATION.cff	CITATION.cff	CITATION
+CLAIM_POLICY.md	CLAIM_POLICY.md	CLAIM POLICY
+DATA_AVAILABILITY.md	DATA_AVAILABILITY.md	DATA AVAILABILITY
+LICENSE	LICENSE	LICENSE
+README.md	README.md	README
+data/benchmark/candidate_burden_by_family.tsv	data	candidate burden by family
+data/benchmark/guide_panel_composition.tsv	data	guide panel composition
+data/benchmark/label_inventory.tsv	data	label inventory
+data/benchmark/mismatch_bucket_coverage.tsv	data	mismatch bucket coverage
+data/benchmark/source_aware_label_inventory.tsv	data	source aware label inventory
+data/benchmark/source_family_offsets.tsv	data	source family offsets
+data/ranking/delta_vs_sequence_baseline_summary.tsv	data	delta vs sequence baseline summary
+data/ranking/label_inventory.tsv	data	label inventory
+data/ranking/metric_definitions.tsv	data	metric definitions
+data/ranking/rank_methods.tsv	data	rank methods
+data/ranking/size_matched_topk_recovery_summary.tsv	data	size matched topk recovery summary
+data/validation_panels/panel_purity_audit.tsv	data	panel purity audit
+data/validation_panels/panel_tier_summary.tsv	data	panel tier summary
+data/validation_panels/validation_panel_backup384.tsv	data	validation panel backup384
+data/validation_panels/validation_panel_core96.tsv	data	validation panel core96
+data/validation_panels/validation_panel_expanded192.tsv	data	validation panel expanded192
+demo/expected_output/minimal_demo_summary.md	demo	minimal demo summary
+demo/expected_output/top1000_recovery_summary.tsv	demo	top1000 recovery summary
+demo/run_minimal_demo.py	demo	run minimal demo
+environment.yml	environment.yml	environment
+metadata/data_dictionary.tsv	metadata	data dictionary
+tools/validate_release.py	tools	validate release

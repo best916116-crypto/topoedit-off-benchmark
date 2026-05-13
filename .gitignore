@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.log
+.env
+
+# never commit raw or transient sequencing/alignment files
+*.fastq
+*.fastq.gz
+*.sra
+*.bam
+*.bai
+*.sam
+data/raw/
+data/interim/
+results/
+demo/output/

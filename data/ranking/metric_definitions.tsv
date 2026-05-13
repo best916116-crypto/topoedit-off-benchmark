@@ -1,0 +1,3 @@
+metric	definition	positive_pool	background_pool	k_values	use_in_main_figure	caveat
+balanced_observed_positive_recovery_at_k	Within a balanced bootstrap evaluation pool, sampled positives recovered in top K divided by the fixed positive denominator.	100.0	10000.0	10,50,100,500,1000	True	Background candidates are not treated as true negatives.
+raw_recall_at_k	Full-denominator recall across source families.				False	Not used for main cross-family comparison because positive-set sizes differ.

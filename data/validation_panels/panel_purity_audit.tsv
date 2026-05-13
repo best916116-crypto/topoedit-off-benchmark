@@ -1,0 +1,4 @@
+panel_tier	rows	guides	negative_control_rows	negative_control_positive_label_rows	conventional_positive_control_rows	conventional_positive_control_negative_label_rows	atmp_context_unlabeled_rows	atmp_context_unlabeled_labeled_rows	hm_unlabeled_rows	hm_unlabeled_labeled_rows	topo_positive	be_positive	conventional_positive	conventional_negative	unlabeled
+core96	96	52	10	0	10	0	8	0	24	0	20	16	10	10	39
+expanded192	192	65	20	0	20	0	16	0	48	0	40	32	20	20	79
+backup384	384	80	40	0	32	0	32	0	96	0	86	66	32	40	159

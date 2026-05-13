@@ -1,0 +1,30 @@
+{
+  "title": "TopoEdit-Off: a source-aware benchmark for high-mismatch genome-editing off-target prioritization",
+  "upload_type": "software",
+  "description": "TopoEdit-Off is a source-aware benchmark resource for high-mismatch genome-editing off-target prioritization.",
+  "creators": [
+    {
+      "name": "Park, Jaejun",
+      "affiliation": "Department of Brain and Cognitive Sciences, KAIST",
+      "orcid": "https://orcid.org/0009-0001-3466-2614"
+    }
+  ],
+  "license": "mit",
+  "keywords": [
+    "CRISPR",
+    "off-target",
+    "genome editing",
+    "benchmark",
+    "source-aware labels",
+    "high mismatch"
+  ],
+  "version": "v1.1.0",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/best916116-crypto/topoedit-off-benchmark",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+method_key	display_label	rank_col	rank_source	non_null_rows	min_rank	max_rank
+sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	detected_existing	1961227	1.0	1961227.0
+integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	detected_existing	1961227	1.0	1961227.0
+supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	detected_existing	1961227	1.0	1961227.0

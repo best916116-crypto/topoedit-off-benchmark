@@ -1,0 +1,46 @@
+label_key	display_label	canonical_label	method_key	method_label	rank_col	k	bootstrap_replicates	mean_recovery	median_recovery	sd_recovery	ci95_low	ci95_high
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	10	1000	0.09023	0.09	0.008385548128620898	0.08	0.1
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	50	1000	0.34582999999999997	0.35	0.02616477967986157	0.3	0.39
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	100	1000	0.45471	0.45	0.02638583165473683	0.42	0.51
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	500	1000	0.78815	0.79	0.0106202773170144	0.76	0.81
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	1000	1000	0.84048	0.84	0.007825013152118731	0.83	0.86
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	10	1000	0.09397	0.1	0.0069128060067447945	0.08	0.1
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	50	1000	0.34507	0.34	0.026353170389719533	0.3	0.4
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	100	1000	0.50313	0.5	0.010918897486574498	0.48	0.52
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	500	1000	0.78715	0.79	0.007391355229735072	0.78	0.8
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	1000	1000	0.856	0.85	0.006873663306217969	0.85	0.87
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	10	1000	0.08648	0.09	0.00994527568790873	0.07	0.1
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	50	1000	0.29248	0.29	0.010399892199333495	0.27	0.32
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	100	1000	0.42081999999999997	0.42	0.021042109456287168	0.38	0.46
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	500	1000	0.69727	0.7	0.008597733481622979	0.68	0.71
+conventional_nuclease_positive	Conventional nuclease positives	CRISPRoffT_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	1000	1000	0.75654	0.76	0.007285703911186722	0.75	0.77
+base_editor_positive	Base-editor positives	BE_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	10	1000	0.02228	0.02	0.010104637732432753	0.01	0.04
+base_editor_positive	Base-editor positives	BE_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	50	1000	0.06894	0.07	0.02012663611936882	0.03	0.11
+base_editor_positive	Base-editor positives	BE_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	100	1000	0.09968	0.1	0.02554114229923849	0.05	0.15
+base_editor_positive	Base-editor positives	BE_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	500	1000	0.20125	0.2	0.037158016876822395	0.13	0.27
+base_editor_positive	Base-editor positives	BE_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	1000	1000	0.30333	0.3	0.04242181880484046	0.22	0.39
+base_editor_positive	Base-editor positives	BE_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	10	1000	0.022449999999999998	0.02	0.00974640921019082	0.01	0.04
+base_editor_positive	Base-editor positives	BE_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	50	1000	0.07341	0.07	0.020505911157331982	0.04	0.12
+base_editor_positive	Base-editor positives	BE_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	100	1000	0.09653	0.1	0.023925541405191476	0.05	0.15
+base_editor_positive	Base-editor positives	BE_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	500	1000	0.20358	0.2	0.03652009470575503	0.13	0.28
+base_editor_positive	Base-editor positives	BE_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	1000	1000	0.30032	0.3	0.041981663378909406	0.22	0.38
+base_editor_positive	Base-editor positives	BE_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	10	1000	0.02155	0.02	0.009580672695029782	0.01	0.04
+base_editor_positive	Base-editor positives	BE_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	50	1000	0.05051	0.05	0.0178313728539857	0.02	0.09
+base_editor_positive	Base-editor positives	BE_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	100	1000	0.09901	0.1	0.02628708639067691	0.05	0.15
+base_editor_positive	Base-editor positives	BE_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	500	1000	0.20918	0.21	0.03555547484975824	0.14	0.28
+base_editor_positive	Base-editor positives	BE_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	1000	1000	0.31926	0.32	0.0421690719678609	0.24	0.4
+topo_seq_positive	TOPO-seq positives	TOPO_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	10	1000	0.00171	0.0	0.004170526740508119	0.0	0.01
+topo_seq_positive	TOPO-seq positives	TOPO_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	50	1000	0.01498	0.01	0.012064209263152941	0.0	0.04
+topo_seq_positive	TOPO-seq positives	TOPO_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	100	1000	0.03258	0.03	0.01770471849697299	0.0	0.07
+topo_seq_positive	TOPO-seq positives	TOPO_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	500	1000	0.11356000000000001	0.11	0.03102077833789296	0.05975000000000001	0.18
+topo_seq_positive	TOPO-seq positives	TOPO_positive	sequence_baseline	Sequence baseline	rank_sequence_low_mismatch_stable	1000	1000	0.20432	0.2	0.03918255827371245	0.13	0.28
+topo_seq_positive	TOPO-seq positives	TOPO_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	10	1000	0.00147	0.0	0.0038670472009084715	0.0	0.01
+topo_seq_positive	TOPO-seq positives	TOPO_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	50	1000	0.01445	0.01	0.011791375515033712	0.0	0.04
+topo_seq_positive	TOPO-seq positives	TOPO_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	100	1000	0.02944	0.03	0.016600059095134637	0.0	0.07
+topo_seq_positive	TOPO-seq positives	TOPO_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	500	1000	0.10725	0.11	0.03096281957761916	0.05	0.17
+topo_seq_positive	TOPO-seq positives	TOPO_positive	integrated_heuristic	Integrated heuristic	rank_low_mismatch_then_atlas_light	1000	1000	0.2003	0.2	0.03914130863987613	0.13	0.28
+topo_seq_positive	TOPO-seq positives	TOPO_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	10	1000	0.00273	0.0	0.004987180763915821	0.0	0.01
+topo_seq_positive	TOPO-seq positives	TOPO_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	50	1000	0.015710000000000002	0.01	0.011951516169036409	0.0	0.04
+topo_seq_positive	TOPO-seq positives	TOPO_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	100	1000	0.03325	0.03	0.01685293806793113	0.0	0.07
+topo_seq_positive	TOPO-seq positives	TOPO_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	500	1000	0.12029000000000001	0.12	0.031850122924885725	0.06	0.19
+topo_seq_positive	TOPO-seq positives	TOPO_positive	supervised_atlas_model	Supervised atlas model	rank_hgb_all_pu_oof	1000	1000	0.23217000000000002	0.23	0.04062809055003377	0.15975000000000003	0.32

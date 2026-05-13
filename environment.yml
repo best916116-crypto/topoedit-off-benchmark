@@ -1,0 +1,8 @@
+name: topoedit-off-benchmark
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10,<3.13
+  - pandas>=2.0
+  - numpy>=1.24
+  - pip

@@ -1,0 +1,4 @@
+label_key	display_label	short_label	canonical_label	source_column	observed_positive_rows	observed_positive_guides
+conventional_nuclease_positive	Conventional nuclease positives	Conventional nuclease	CRISPRoffT_positive	has_conventional_positive	103	16
+base_editor_positive	Base-editor positives	Base-editor	BE_positive	has_be_positive	3742	11
+topo_seq_positive	TOPO-seq positives	TOPO-seq	TOPO_positive	has_topo_positive	21612	6
