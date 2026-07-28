@@ -115,7 +115,11 @@ Cite the archived Zenodo release: DOI `10.5281/zenodo.20154047`. See `CITATION.c
 
 ## License
 
-MIT.
+TopoEdit-Off code and repository materials are released under the [MIT License](LICENSE). Third-party source datasets remain subject to their original providers' terms.
+
+## Feedback and contact
+
+Questions, corrections, benchmark comparisons, and reproducible discrepancies are welcome through [GitHub Issues](https://github.com/Park-Junjae/topoedit-off-benchmark/issues) or at [best916116@gmail.com](mailto:best916116@gmail.com).
 
 ## Version
 
