@@ -8,6 +8,10 @@ This repository contains the public software/resource release accompanying the m
 
 > **TopoEdit-Off: a source-aware benchmark for high-mismatch genome-editing off-target prioritization**
 
+<p align="center">
+  <img src="docs/assets/topoedit-off-overview.svg" alt="TopoEdit-Off source-aware benchmark workflow" width="1200">
+</p>
+
 ## What this repository provides
 
 TopoEdit-Off organizes public genome-editing off-target evidence into a compact, source-aware benchmark. The resource is designed to support:

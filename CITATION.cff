@@ -10,7 +10,7 @@ authors:
   - family-names: Cho
     given-names: Sung Ik
     affiliation: "Department of Brain and Cognitive Sciences, KAIST"
-repository-code: "https://github.com/best916116-crypto/topoedit-off-benchmark"
+repository-code: "https://github.com/Park-Junjae/topoedit-off-benchmark"
 version: "v1.1.1"
 date-released: "2026-05-13"
 license: "MIT"
